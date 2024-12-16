@@ -28,6 +28,19 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  provider: ^6.1.2          # Для управления состоянием
+  flutter_hooks: ^0.20.5    # работа с состоянием
+  freezed: ^2.3.2           # Для создания immutable моделей
+  json_serializable: ^6.6.2 # Для работы с JSON
+  http: ^1.1.0              # Для запросов к серверу
+  #UI
+  flutter_svg: ^2.0.7      # Для работы с SVG-иконками
+  cached_network_image: ^3.2.3 # Кэширование изображений
+  google_fonts: ^6.2.1     # Google-шрифты
+  # Навигация
+  go_router: ^14.6.2
+
+
   flutter:
     sdk: flutter
 
@@ -37,6 +50,8 @@ dependencies:
   cupertino_icons: ^1.0.8
 
 dev_dependencies:
+  build_runner: ^2.4.6     # Для генерации кода (freezed/json_serializable)
+
   flutter_test:
     sdk: flutter
 
@@ -45,7 +60,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
