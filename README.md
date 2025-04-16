@@ -40,7 +40,7 @@
 
 1.  **Клонировать репозиторий:**
     ```bash
-    git clone [URL вашего репозитория]
+    git clone https://github.com/ahjkuio/lineage-family-app
     cd lineage_family_app
     ```
 2.  **Установить зависимости:**
